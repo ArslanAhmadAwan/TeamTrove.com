@@ -115,36 +115,42 @@ span a{
 
 /**content**/
 .content{
-  display: flex;
-  justify-content: space-evenly;
+  display: block;
+  align-items: center;
+  align-content: center;
   background-image: url(singleman.jpg);
   background-size: cover;
 }
 
 .box{
   /**border: 2px solid black;**/
-  height: 450px;
-  width: 23%;
+  height: 650px;
+  width: 65%;
   background-color: white;
   padding: 20px 0px 15px;
   margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 17.5%;
 }
 
 .box-img{
-  height: 250px;
-  background-size: cover;
+  height: 500px;
+  background-size: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .box-content{
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
+
 .box-content p{
+  margin-top: 20px;
   font-size:large;
   color: rgb(17, 1, 1);
 }
+
 /**footer**/
 footer{
   margin-top: 20px;
@@ -241,4 +247,4 @@ ul a {
   font-size: 1rem;
   margin-left: 20px;
 }
- 
+}
