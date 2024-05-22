@@ -103,7 +103,7 @@ span a{
 .hero-msg{
   background-color: white;
   color: black;
-  height: 60px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -223,6 +223,7 @@ ul a {
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 20px;
+    margin-left: 5%;
   }
   .box-img{
     height: 250px;
